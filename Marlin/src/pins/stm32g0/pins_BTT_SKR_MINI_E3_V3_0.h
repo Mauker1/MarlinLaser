@@ -134,13 +134,13 @@
 //
 // Heaters / Fans
 //
-// #define HEATER_0_PIN                        PC8   // "HE"
+#define HEATER_0_PIN                        PC8   // "HE"
 #define HEATER_BED_PIN                      PC9   // "HB"
-// #define FAN_PIN                             PC6   // "FAN0"
+#define FAN_PIN                             PC6   // "FAN0"
 #define FAN1_PIN                            PC7   // "FAN1"
 #define FAN2_PIN                            PB15  // "FAN2"
 
-#define SPINDLE_LASER_PWM_PIN               PC6   // "FAN0"
+#define SPINDLE_LASER_PWM_PIN               PA8   // "Neopixel"
 #define SPINDLE_LASER_ENA_PIN               PC8   // "HE" - Heater0 to power laser with 24V
 // #define SPINDLE_LASER_ENA_PIN 2 // Heater0 to power laser with 24V
 
@@ -441,5 +441,5 @@
 // Default NEOPIXEL_PIN
 //
 #ifndef NEOPIXEL_PIN
-  #define NEOPIXEL_PIN                      PA8   // LED driving pin
+  //#define NEOPIXEL_PIN                      PA8   // LED driving pin
 #endif
